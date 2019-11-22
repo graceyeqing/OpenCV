@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/yeqingworkspace/opencv/OpenCV-android-sdk/sdk/libcxx_helper/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\yeqing\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\yeqingworkspace\\opencv\\OpenCV-android-sdk\\sdk\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"opencv_jni_shared-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_jni_shared",
+			"buildCommand" : "C:\\Users\\yeqing\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\yeqingworkspace\\opencv\\OpenCV-android-sdk\\sdk\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target opencv_jni_shared",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/android-ndk-r19c/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android-ndk-r19c/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/yeqingworkspace/opencv/OpenCV-android-sdk/sdk/libcxx_helper/dummy.cpp",
+					"workingDirectory" : "E:/yeqingworkspace/opencv/OpenCV-android-sdk/sdk/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "E:/yeqingworkspace/opencv/OpenCV-android-sdk/sdk/.externalNativeBuild/cmake/release/armeabi-v7a/libopencv_jni_shared.a",
+			"toolchain" : "2566377217"
+		}
+	},
+	"toolchains" : 
+	{
+		"2566377217" : 
+		{
+			"cCompilerExecutable" : "D:/android-ndk-r19c/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-ndk-r19c/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

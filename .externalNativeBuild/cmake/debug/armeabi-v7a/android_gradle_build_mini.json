@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\yeqingworkspace\\opencv\\OpenCV-android-sdk\\sdk\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\yeqing\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\yeqingworkspace\\opencv\\OpenCV-android-sdk\\sdk\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-armeabi-v7a": {
+      "artifactName": "opencv_jni_shared",
+      "buildCommand": "C:\\Users\\yeqing\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\yeqingworkspace\\opencv\\OpenCV-android-sdk\\sdk\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target opencv_jni_shared",
+      "abi": "armeabi-v7a",
+      "output": "E:\\yeqingworkspace\\opencv\\OpenCV-android-sdk\\sdk\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\\libopencv_jni_shared.a"
+    }
+  }
+}
