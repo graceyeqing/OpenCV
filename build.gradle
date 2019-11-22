@@ -89,7 +89,7 @@
 //
 
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.github.dcendents.android-maven'//固定不变
 println "OpenCV: " + project.buildscript.sourceFile
 
 android {
